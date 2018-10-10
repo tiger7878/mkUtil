@@ -100,6 +100,7 @@ public class BigDecimalUtil {
     public static void main(String[] args) {
         System.out.println("不准确精度："+(0.05+0.01));
         System.out.println("准确精度："+BigDecimalUtil.add(0.05,0.01));
+        System.out.println(BigDecimalUtil.sub(0.05,0.01));
     }
 
 }
